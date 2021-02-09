@@ -36,6 +36,9 @@ ai= r'‪C:\Users\HP\archive (1)\greetings.yml'
 
 
 st.sidebar.markdown(f"<h1 style='text-align: center; color: blue;'> ULTRA BOT</h1>", unsafe_allow_html=True)
+st.subheader(""" 
+ ULTRA BOT is an NLP conversational chatterbot aimed at helping business to answer FAQs from customers. Initialize the bot by clicking the "Start Chat" button. 
+""")
 
 
 st.markdown("<h1 style='text-align: center; color: white;'>ULTRA BOT</h1>", unsafe_allow_html=True)
@@ -55,9 +58,6 @@ st.sidebar.selectbox(
 )
 
 
-st.subheader(""" 
- ULTRA BOT is an NLP conversational chatterbot aimed at helping business to answer FAQs from customers. Initialize the bot by clicking the "Start Chat" button. 
-""")
 
 
 
