@@ -27,10 +27,10 @@ def set_png_as_page_bg(png_file):
     
     st.markdown(page_bg_img, unsafe_allow_html=True)
     return
-set_png_as_page_bg(r'C:\Users\HP\ch1.jpg')
+set_png_as_page_bg(r'https://github.com/ultranet1/CHAT_BOT/blob/main/image/ch1.jpg')
 
 
-ai= r'‪C:\Users\HP\archive (1)\greetings.yml'
+ai= r'‪https://github.com/ultranet1/CHAT_BOT/blob/main/DATASET%3F/ai.yml'
 
 
 
