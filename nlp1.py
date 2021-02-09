@@ -17,7 +17,7 @@ background-size: cover;
 </style>
 '''
 
-ai= 'ai.yml'
+ai= 'https://github.com/ultranet1/CHAT_BOT/blob/main/ai.yml'
 
 
 
