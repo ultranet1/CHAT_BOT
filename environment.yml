@@ -5,7 +5,11 @@ dependencies:
     - streamlit
     - dash
     - dash-renderer
-    - dash-core-components
-    - dash-html-components
-    - plotly
-    - gunicorn
+   
+   
+$ conda env create
+
+$ source activate streamlit
+
+
+$ conda info --envs
