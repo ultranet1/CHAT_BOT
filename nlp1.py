@@ -73,4 +73,4 @@ else:
     st.text_area("Bot:", value="Please start the bot by clicking sidebar button", height=200, max_chars=None, key=None)
 
 
-st.warning('Bot is still learning, it wiil be updated later on')
+st.warning('Bot is still learning it wiil be updated later on')
