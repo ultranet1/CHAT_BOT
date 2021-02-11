@@ -1,0 +1,11 @@
+name: dash_app #Environment name
+dependencies:
+  - python=3.6
+  - pip:
+    - streamlit
+    - dash
+    - dash-renderer
+    - dash-core-components
+    - dash-html-components
+    - plotly
+    - gunicorn
