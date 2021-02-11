@@ -11,11 +11,13 @@ def get_text():
 page_bg_img = '''
 <style>
 body {
-background-image: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366");
+background-image: url("https://images.unsplash.com/photo-1611416457332-946853cc75d6");
 background-size: cover;
 }
 </style>
 '''
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
 
 ai= 'https://github.com/ultranet1/CHAT_BOT/blob/main/ai.yml'
 
