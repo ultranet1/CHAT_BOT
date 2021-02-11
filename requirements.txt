@@ -4,5 +4,5 @@ pandas >=  1.1.2
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz#egg=en_core_web_sm
 numpy >= 1.19
 git+https://github.com/ultranet1/ChatterBot
-spacy  >= 3.0.1
+
 
