@@ -1,6 +1,6 @@
 streamlit ==  0.75.0
 pandas >=  1.1.2
 numpy >= 1.19
-git+https://github.com/ultranet1/ChatterBot/tree/master/.github
+git+https://github.com/ultranet1/ChatterBot
 spacy  >= 3.0.1
 
