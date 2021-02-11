@@ -11,7 +11,7 @@ def get_text():
 page_bg_img = '''
 <style>
 body {
-background-image: url("https://images.unsplash.com/photo-1611416457332-946853cc75d6");
+background-image: url("https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1");
 background-size: cover;
 }
 </style>
