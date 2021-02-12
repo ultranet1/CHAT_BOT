@@ -34,6 +34,21 @@ st.subheader("""
  ULTRA BOT is an NLP conversational chatterbot aimed at helping business to answer FAQs from customers. Initialize the bot by clicking the "Start Chat" button. 
 """)
 
+
+bot = ChatBot('Ultra',
+             logic_adapters = [
+                 {
+                     'import_path': 'chatterbot.logic.BestMatch',
+                     'default_response': 'I am sorry, I do not understand. I am still learning. Please contact github.io/ultranet1 for further assistance.',
+                     'maximum_similarity_threshold': 0.90
+                 }
+             ],
+             read_only = True,
+             preprocessors=['chatterbot.preprocessors.clean_whitespace',
+'chatterbot.preprocessors.unescape_html',
+'chatterbot.preprocessors.convert_to_ascii'])
+
+
 ind = 1
 if st.sidebar.button('Start Chatting'):
     trainer2=ListTrainer(bot) 
@@ -49,18 +64,6 @@ st.sidebar.selectbox(
 )
 
 
-bot = ChatBot('Ultra',
-             logic_adapters = [
-                 {
-                     'import_path': 'chatterbot.logic.BestMatch',
-                     'default_response': 'I am sorry, I do not understand. I am still learning. Please contact github.io/ultranet1 for further assistance.',
-                     'maximum_similarity_threshold': 0.90
-                 }
-             ],
-             read_only = True,
-             preprocessors=['chatterbot.preprocessors.clean_whitespace',
-'chatterbot.preprocessors.unescape_html',
-'chatterbot.preprocessors.convert_to_ascii'])
 
 
 
