@@ -2,7 +2,7 @@ streamlit ==  0.75.0
 pandas >=  1.1.2
 
 
-git+https://github.com/ultranet1/CHAT_BOT/tree/main/en%20core/en_core_web_sm-3.0.0/en_core_web_sm/en_core_web_sm-3.0.0
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz
 spacy
 numpy >= 1.19
 git+https://github.com/ultranet1/ChatterBot
