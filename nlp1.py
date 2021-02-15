@@ -19,7 +19,7 @@ background-size: cover;
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-ai= git + 'https://github.com/ultranet1/CHAT_BOT/blob/main/ai.yml'
+ai=  'git + https://github.com/ultranet1/CHAT_BOT/blob/main/ai.yml'
 
 
 
