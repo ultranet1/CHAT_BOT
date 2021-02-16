@@ -1,5 +1,6 @@
 import streamlit as st
 from chatterbot import ChatBot
+from chatbot import chatbot
 from chatterbot.trainers import ListTrainer
 from chatterbot.trainers import ChatterBotCorpusTrainer 
 import json
