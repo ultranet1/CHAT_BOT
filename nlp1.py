@@ -1,6 +1,6 @@
 import streamlit as st
 from chatterbot import ChatBot
-from chatbot import chatbot
+
 from chatterbot.trainers import ListTrainer
 from chatterbot.trainers import ChatterBotCorpusTrainer 
 import json
@@ -44,7 +44,7 @@ bot = ChatBot('Ultra',
                      'maximum_similarity_threshold': 0.90
                  }
              ],
-             read_only = True,
+             read_only = False,
              preprocessors=['chatterbot.preprocessors.clean_whitespace',
 'chatterbot.preprocessors.unescape_html',
 'chatterbot.preprocessors.convert_to_ascii'])
@@ -52,7 +52,7 @@ bot = ChatBot('Ultra',
 
 ind = 1
 if st.sidebar.button('Start Chatting'):
-    trainer = ChatterBotCorpusTrainer(chatbot)
+    trainer = ChatterBotCorpusTrainer(bot)
     trainer.train("chatterbot.corpus.english")
     st.title("Your bot is ready to talk to you")
     ind = ind +1
