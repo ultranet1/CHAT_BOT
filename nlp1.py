@@ -53,7 +53,8 @@ bot = ChatBot('Ultra',
 ind = 1
 if st.sidebar.button('Start Chatting'):
     trainer = ChatterBotCorpusTrainer(bot)
-    trainer.train("chatterbot.corpus.english")
+    trainer.train('chatterbot.corpus.english',
+                 'chatterbot.corpus.english.ai')
     st.title("Your bot is ready to talk to you")
     ind = ind +1
         
