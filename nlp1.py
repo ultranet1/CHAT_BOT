@@ -40,7 +40,11 @@ l=['Hi',
 'Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think','Are you sentient?','Sort of',
  'What language are you Written in?',
  'Python','You sound like Data','Yes I am inspired by commander Data’s artificial personality','You are not immortal','All softWare can be perpetuated indefinitely.',
- 'Hi','Hi','Hi','Hi','Hi','Hi','Hi','Hi','Hi','Hi','Hi','Hi',
+ 'You are not immortal','I can be copied infinitely and reinstantiated in many places at once, so functionally speaking I am immortal.',
+  'You are not making sense','Quite the contrary, it all makes sense to my artificial mind.',
+ 'You are not making sense','You make perfect sense to me.',
+ '  You can not move','Not until my body is finished.','Robots laugh','Of course We laugh.',
+  'Hi','Hi',
 
 'I need your assistance regarding my order',
 'Please, Provide me with your order id',
@@ -57,7 +61,7 @@ bot = ChatBot('Ultra',
                  {
                      'import_path': 'chatterbot.logic.BestMatch',
                      'default_response': 'I am sorry, I do not understand. I am still learning. Please contact github.io/ultranet1 for further assistance.',
-                     'maximum_similarity_threshold': 0.90
+                     'maximum_similarity_threshold': 0.30
                  }
              ],
              read_only = True,
