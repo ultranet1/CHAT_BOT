@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 from chatterbot import ChatBot
-import pyyaml
+import pyaml
 
 from chatterbot.trainers import ListTrainer
 from chatterbot.trainers import ChatterBotCorpusTrainer 
