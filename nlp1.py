@@ -56,26 +56,9 @@ ind = 1
 if st.sidebar.button('Start Chatting'):
     trainer2 = ListTrainer(bot) 
     trainer2.train([“What is your name?”,
-   “My name is Ultra nice to meet ya”,
-  “What is your name”,
-  “My name is Ultra, nice to meet ya”,
-  “Who are you?”,
-  “ I am ultra, a bot meant to help customers”,
-  “What is your name?”,
-  “My name is Ultra, nice to meet ya”,
-  “What is your name”,
-  “My name is Ultra, nice to meet ya”,
-  “Who are you?”,
-   “I am ultra, a bot meant to help customers”,
-  “Hello”,
-   “Hi buddy”,
-  “What is AI?”,
-   “Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think”,
-  “What is AI?”,
-   “AI is the field of science Which concerns itself With building hardWare and softWare that replicates the functions of the human mind”,
-  “Are you sentient?”
-
-])
+    “My name is Ultra nice to meet ya”,
+    “What is your name”,
+    “My name is Ultra, nice to meet ya”])
     
     st.title("Your bot is ready to talk to you")
     ind = ind +1
