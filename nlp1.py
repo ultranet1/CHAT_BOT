@@ -55,10 +55,8 @@ bot = ChatBot('Ultra',
 ind = 1
 if st.sidebar.button('Start Chatting'):
     trainer2=ListTrainer(bot) 
-    trainer2.train(['Hello', 'how are you'])
-    for files in os.listdir('./english/'):
-    data=open('./english/'+files,'r').readlines()
-    trainer.train(data)
+    trainer2.train('ai.yml')
+    
     st.title("Your bot is ready to talk to you")
     ind = ind +1
         
