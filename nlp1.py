@@ -33,15 +33,16 @@ st.subheader("""
 """)
 
 
-bot = ChatBot('Ultra', storage_adapter='chatterbot.storage.SQLStorageAdapter',
+
+bot = ChatBot('Ultra',
              logic_adapters = [
                  {
                      'import_path': 'chatterbot.logic.BestMatch',
                      'default_response': 'I am sorry, I do not understand. I am still learning. Please contact github.io/ultranet1 for further assistance.',
-                     'maximum_similarity_threshold': 0.10
+                     'maximum_similarity_threshold': 0.90
                  }
-             ],  database_uri='sqlite:///database.sqlite3',
-             read_only = False,
+             ],
+             read_only = True,
              preprocessors=['chatterbot.preprocessors.clean_whitespace',
 'chatterbot.preprocessors.unescape_html',
 'chatterbot.preprocessors.convert_to_ascii'])
@@ -51,9 +52,8 @@ bot = ChatBot('Ultra', storage_adapter='chatterbot.storage.SQLStorageAdapter',
 
 ind = 1
 if st.sidebar.button('Start Chatting'):
-    trainer = ChatterBotCorpusTrainer(bot)
-    trainer.train(
-                 'chatterbot.corpus.english')
+    trainer2=ListTrainer(bot) 
+    trainer2.train(['Hello', 'how are you'])
     st.title("Your bot is ready to talk to you")
     ind = ind +1
         
