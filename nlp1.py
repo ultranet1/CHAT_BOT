@@ -33,14 +33,14 @@ st.subheader("""
 """)
 
 
-bot = ChatBot('Ultra',
+bot = ChatBot('Ultra', storage_adapter='chatterbot.storage.SQLStorageAdapter',
              logic_adapters = [
                  {
                      'import_path': 'chatterbot.logic.BestMatch',
                      'default_response': 'I am sorry, I do not understand. I am still learning. Please contact github.io/ultranet1 for further assistance.',
                      'maximum_similarity_threshold': 0.10
                  }
-             ],
+             ],  database_uri='sqlite:///database.sqlite3',
              read_only = False,
              preprocessors=['chatterbot.preprocessors.clean_whitespace',
 'chatterbot.preprocessors.unescape_html',
