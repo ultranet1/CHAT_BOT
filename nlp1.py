@@ -20,10 +20,7 @@ background-size: cover;
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-ai=  'git + https://github.com/ultranet1/CHAT_BOT/blob/main/ai.yml'
 
-
-list1=[]
 
 st.sidebar.markdown(f"<h1 style='text-align: center; color: blue;'> ULTRA BOT</h1>", unsafe_allow_html=True)
 
@@ -49,6 +46,9 @@ bot = ChatBot('Ultra',
 'chatterbot.preprocessors.unescape_html',
 'chatterbot.preprocessors.convert_to_ascii'])
 
+bot.train(['What is your name?', 'My name is Candice'])
+bot.train(['Who are you?', 'I am a bot, created by you' ])
+
 
 ind = 1
 if st.sidebar.button('Start Chatting'):
@@ -64,15 +64,6 @@ st.sidebar.selectbox(
     "How would you like to be contacted?",
     ("Email", "Home phone", "Mobile phone")
 )
-
-
-
-
-
-
-
-
-
 
 
 
