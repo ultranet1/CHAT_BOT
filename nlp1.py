@@ -55,10 +55,8 @@ bot = ChatBot('Ultra',
 ind = 1
 if st.sidebar.button('Start Chatting'):
     trainer2 = ListTrainer(bot) 
-    trainer2.train([“What is your name?”,
-    “My name is Ultra nice to meet ya”,
-    “What is your name”,
-    “My name is Ultra, nice to meet ya”])
+    trainer2.train([“What is your name?”, “My name is Ultra nice to meet ya”, 
+                    “What is your name”,“My name is Ultra, nice to meet ya”])
     
     st.title("Your bot is ready to talk to you")
     ind = ind +1
