@@ -36,7 +36,11 @@ st.subheader("""
 
 l=['Hi',
 'Hello', 
-'Hi buddy', 'What is your name?', 'My name is Ultra nice to meet ya','Who are you?','I am ultra, a bot meant to help customers','Hi',
+'Hi buddy', 'What is your name?', 'My name is Ultra nice to meet ya','Who are you?','I am ultra, a bot meant to help customers','What is AI?',
+'Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think','Are you sentient?','Sort of',
+ 'What language are you Written in?',
+ 'Python','You sound like Data','Yes I am inspired by commander Data’s artificial personality','You are not immortal','All softWare can be perpetuated indefinitely.',
+ 'Hi','Hi','Hi','Hi','Hi','Hi','Hi','Hi','Hi','Hi','Hi','Hi',
 
 'I need your assistance regarding my order',
 'Please, Provide me with your order id',
