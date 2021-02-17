@@ -23,7 +23,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 ai=  'git + https://github.com/ultranet1/CHAT_BOT/blob/main/ai.yml'
 
 
-
+list1=[]
 
 st.sidebar.markdown(f"<h1 style='text-align: center; color: blue;'> ULTRA BOT</h1>", unsafe_allow_html=True)
 
@@ -53,7 +53,7 @@ bot = ChatBot('Ultra',
 ind = 1
 if st.sidebar.button('Start Chatting'):
     trainer = ChatterBotCorpusTrainer(bot)
-    trainer.train('chatterbot.corpus.english',
+    trainer.train(
                  'chatterbot.corpus.english.ai')
     st.title("Your bot is ready to talk to you")
     ind = ind +1
