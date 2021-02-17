@@ -54,8 +54,8 @@ bot = ChatBot('Ultra',
 
 ind = 1
 if st.sidebar.button('Start Chatting'):
-    trainer2=ListTrainer(bot) 
-    trainer2.train('ai.yml')
+    trainer2 =ChatterBotCorpusTrainer(chatbot) 
+    trainer2.train("data/trainingdata.yml")
     
     st.title("Your bot is ready to talk to you")
     ind = ind +1
