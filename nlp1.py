@@ -46,8 +46,7 @@ bot = ChatBot('Ultra', storage_adapter='chatterbot.storage.SQLStorageAdapter',
 'chatterbot.preprocessors.unescape_html',
 'chatterbot.preprocessors.convert_to_ascii'])
 
-bot.train(['What is your name?', 'My name is Candice'])
-bot.train(['Who are you?', 'I am a bot, created by you' ])
+
 
 
 ind = 1
