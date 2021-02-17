@@ -34,6 +34,16 @@ st.subheader("""
  ULTRA BOT is an NLP conversational chatterbot aimed at helping business to answer FAQs from customers. Initialize the bot by clicking the "Start Chat" button. 
 """)
 
+l=['Hi',
+'Hello',
+'I need your assistance regarding my order',
+'Please, Provide me with your order id',
+'I have a complaint.',
+'Please elaborate, your concern',
+'How long it will take to receive an order ?',
+'An order takes 3-5 Business days to get delivered.',
+'Okay Thanks',
+'No Problem! Have a Good Day!']
 
 
 bot = ChatBot('Ultra',
@@ -55,8 +65,7 @@ bot = ChatBot('Ultra',
 ind = 1
 if st.sidebar.button('Start Chatting'):
     trainer2 = ListTrainer(bot) 
-    trainer2.train([“What is your name?”, “My name is Ultra nice to meet ya”, 
-                    “What is your name”,“My name is Ultra, nice to meet ya”])
+    trainer2.train(l)
     
     st.title("Your bot is ready to talk to you")
     ind = ind +1
