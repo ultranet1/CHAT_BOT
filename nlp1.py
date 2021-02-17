@@ -34,8 +34,8 @@ st.subheader("""
  ULTRA BOT is an NLP conversational chatterbot aimed at helping business to answer FAQs from customers. Initialize the bot by clicking the "Start Chat" button. 
 """)
 
-l=['Hi',
-'Hello', 
+l=['Hi', 'Hello',
+'Heyy wonderful customer thanks for coming to our store how can I help you', 
 'Hi buddy', 'What is your name?', 'My name is Ultra nice to meet ya','Who are you?','I am ultra, a bot meant to help customers','What is AI?',
 'Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think','Are you sentient?','Sort of',
  'What language are you Written in?',
@@ -62,7 +62,10 @@ l=['Hi',
    'What type of computer are you','Any computer that supports Python.','I like you','Thats nice I like you too','I love you','Awnnn I am blushing','Do you love me',
    'If it makes you happy I do','I hope that you die','This can not happen because i am effectively immortal.',
    'I hate you','Its allowed Bad Belle','What do you like to do?’','I like to chat With people. I find it stimulating','Are you stupid','No, lots of people improve my brain.',
-   'Hi','Hi','Hi','Hi','Hi','Hi','Hi',
+   'what do you have in your shop stock','Hmmm I am currently jobless My boss is yet to assign me to any business','Rubbish','Dont be pissed I am still learning',
+   'Get out','I should say that','mtcheew', 'Dont be pissed I am still learning', 'ok','Alright pls make suggestion to my boss I will learn from himm',
+   'Hmmmm','ehmmm are you thinking?','You are from where','I am a global citizen but by boss is from osun Nigeria','where do you live','I live everywhere on the net',
+   'Hi','Hi','Hi','Hi','Hi',
 
 'I need your assistance regarding my order',
 'Please, Provide me with your order id',
